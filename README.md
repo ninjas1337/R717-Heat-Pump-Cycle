@@ -2,6 +2,8 @@
 
 An interactive, single-file visualisation of a single-stage vapour-compression heat pump running on ammonia (R717). Set the heating supply temperature and the heat source temperature, and the page recalculates all four stages of the cycle, draws them on a log p–h chart and places each state on ammonia's p–T phase diagram.
 
+**Live demo:** [ninjas1337.github.io/R717-Heat-Pump-Cycle](https://ninjas1337.github.io/R717-Heat-Pump-Cycle/)
+
 Everything runs in the browser from one file, [`index.html`](index.html). It has no build step and no dependencies. The ammonia property model is built in, so the calculations also work offline. Only the web fonts are loaded from Google Fonts.
 
 ## Features
@@ -17,7 +19,7 @@ Everything runs in the browser from one file, [`index.html`](index.html). It has
 
 ## Usage
 
-Open `index.html` in any modern browser. You can also serve the folder with any static web server or with GitHub Pages.
+Use the [live demo](https://ninjas1337.github.io/R717-Heat-Pump-Cycle/), or open `index.html` in any modern browser. You can also serve the folder with any static web server.
 
 ## Example: default settings
 
